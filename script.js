@@ -1,20 +1,3 @@
-
-// function(e){
-//     let turn= box.innerText;
-//     // turn=" ";
-//     if (turn=" "){
-//         e.key='X'
-//         return e.key;
-//     }
-//     else if (turn='X'){
-//         e.key='O'
-//         return e.key;
-//     }else{
-//         e.key='X'
-//         return e.key;
-//     }
-// }
-
 let turn='X';
 //an array to store all box's content
 let gameHistory= new Array(9).fill(null);
@@ -49,21 +32,3 @@ function boxClick(e){
     checkWin();
     turn=(turn==='X'?'0':'X');
 }
-// let box= document.querySelectorAll('box');
-
-// box.addEventListener('click',function(e){
-//     let turn= e.innerText;
-//     // turn=" ";
-//     if (turn===" "){
-//         e.key='X'
-//         // return e.key;
-//     }
-//     else if (turn==='X'){
-//         e.key='O'
-//         return e.key;
-//     }else{
-//         e.key='X'
-//         return e.key;
-//     }
-// });
-    // box.onclick= getInput;
